@@ -1,0 +1,15 @@
+global:
+  message:Welcome to order service prod environment
+server:
+  port:8085
+message:this is hello from order prod.. !
+spring:
+  datasource:
+    url:jdbc:mysql://localhost:3306/cust_prod
+    username:root
+    password:Alekhya@1812
+    driverClassName:com.mysql.ch.jdbc.Driver
+jpa:
+  hibernate:
+    ddl-auto:update
+  show-sql:true
