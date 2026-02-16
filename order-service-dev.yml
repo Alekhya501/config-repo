@@ -8,7 +8,7 @@ spring:
     url:jdbc:mysql://localhost:3306/order_dev
     username:root
     password:Alekhya@1812
-    driverClassName:com.mysql.ch.jdbc.Driver
+    driverClassName:com.mysql.cj.jdbc.Driver
 jpa:
   hibernate:
     ddl-auto:update
